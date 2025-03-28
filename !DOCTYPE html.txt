@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">Plataforma IA</a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="inicio" class="hero">
+            <div class="container hero__content">
+                <h1 class="hero__title">Impulsa tu negocio con IA</h1>
+                <p class="hero__description">Descubre soluciones innovadoras para transformar tu empresa.</p>
+                <a href="#servicios" class="btn btn--primary">Comienza ahora</a>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <div class="container">
+                <h2 class="section-title">Nuestros servicios</h2>
+                <div class="services__grid">
+                    <div class="service">
+                        <img src="data.svg" alt="Análisis de datos" class="service__image">
+                        <h3 class="service__title">Análisis de datos</h3>
+                        <p class="service__description">Extraemos información valiosa para decisiones estratégicas.</p>
+                    </div>
+                    <div class="service">
+                        <img src="vision.svg" alt="Visión por computadora" class="service__image">
+                        <h3 class="service__title">Visión por computadora</h3>
+                        <p class="service__description">Desarrollamos sistemas de reconocimiento visual avanzados.</p>
+                    </div>
+                    <div class="service">
+                        <img src="nlp.svg" alt="Procesamiento de lenguaje natural" class="service__image">
+                        <h3 class="service__title">Procesamiento de lenguaje natural</h3>
+                        <p class="service__description">Creamos chatbots y asistentes virtuales inteligentes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <form id="formulario-contacto" class="contact__form">
+                    <input type="text" placeholder="Nombre" required class="contact__input">
+                    <input type="email" placeholder="Correo electrónico" required class="contact__input">
+                    <textarea placeholder="Mensaje" required class="contact__textarea"></textarea>
+                    <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2024 Plataforma IA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
